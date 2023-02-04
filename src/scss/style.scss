@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body{
+    height: 100vh;
+    display: grid;
+    background: linear-gradient(90deg, #040053 0%, #090979 46%, #570071 100%);
+    place-items: center;
+}
+li{
+    list-style-type: none;
+}
+
+select{
+    font-size: 1.4rem;
+    width: 10em;
+    margin: 1em 0;
+    outline: none;
+    // padding: ;
+}
